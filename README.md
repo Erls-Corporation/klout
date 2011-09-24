@@ -8,6 +8,7 @@ node-klout
  ```javascript
 
 var Klout = require("node-klout");
+Klout.key = "MY_API_KEY";
 
 Klout.getSingle("kisshotch", function(error, klout) {
 	if (error) {
