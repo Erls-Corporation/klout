@@ -2,7 +2,7 @@
     "author": "Edward Hotchkiss <e@ingk.com>",
     "name": "node-klout",
     "description": "Extremely reliable Node.js Klout API Wrapper",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "repository": {
       "type": "git",
       "url": "git://github.com/edwardhotchkiss/node-klout.git"
