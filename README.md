@@ -1,19 +1,25 @@
 
-node-klout
-==========
+# klout
 
- * Extremely reliable Node.js Klout API Wrapper
- * Returns null on non-parseable JSON (ocassionally happens from the Klout API)
- 
+## NodeJS Klout API Wrapper 
+
+### Download
+
+```bash
+$ npm install klout
+```
+
+### Examples
+
  ```javascript
-var Klout = require("node-klout");
-Klout.key = "MY_API_KEY";
+var klout = require("klout");
+klout.init("MY_API_KEY", "FORMAT", "VERSION");;
 
-Klout.getSingle("kisshotch", function(error, klout) {
-	if (error) {
-		console.error(error); 
-	} else {
-		console.log("Klout Score for @kisshotch:", klout);
-	};
+klout.get("kisshotch", function(error, klout) {
+  if (error) {
+    console.error(error); 
+  } else {
+    console.log("Klout Score for @kisshotch:", klout);
+  };
 });
  ```
