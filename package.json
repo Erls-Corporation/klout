@@ -1,18 +1,18 @@
 {
-    "author": "Edward Hotchkiss <e@ingk.com>",
-    "name": "node-klout",
-    "description": "Extremely reliable Node.js Klout API Wrapper",
-    "version": "0.1.1",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/edwardhotchkiss/node-klout.git"
-    },
-    "keywords": ["klout", "node-klout", "twitter", "rank", "api"],
-    "main": "./index",
-    "engines": {
-      "node": "~v0.4.11"
-    },
-    "dependencies": {
-      "request":"2.1.1"
-    }
+  "author":"Edward Hotchkiss <e@ingk.com>",
+  "name":"klout",
+  "description":"NodeJS Klout API Wrapper",
+  "version": "0.0.0",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/edwardhotchkiss/klout.git"
+  },
+  "keywords":["klout", "twitter", "rank", "api", "influence"],
+  "main":"./lib/klout",
+  "engines":{
+    "node": ">=v0.4.11"
+  },
+  "dependencies":{
+    "request":"2.1.1"
+  }
 }
