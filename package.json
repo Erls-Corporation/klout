@@ -14,5 +14,12 @@
   },
   "dependencies":{
     "request":"2.1.1"
+  },
+  "devDependencies":{
+    "vows":"0.5.13",
+    "should":"0.3.2"
+  },
+  "scripts": {
+    "test": "vows test/*.test.js --spec"
   }
 }
