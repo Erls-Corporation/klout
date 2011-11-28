@@ -17,6 +17,7 @@ vows.describe("general module tests").addBatch({
       topic.should.be.a("function");
     }
   },
+  // score methods
   "when requesting a single users klout":{
     topic:function(){
       klout.getKlout("kisshotch", this.callback);
@@ -36,7 +37,49 @@ vows.describe("general module tests").addBatch({
       assert.notEqual(users.users.length, undefined);
       users.should.be.a("object");
     }
-  }
+  },
+  // user methods
+  "when requesting a users user object":{
+    topic:function(){
+      klout.getShow("kisshotch", this.callback);
+    },
+    "we should be able to get a user object, with no errors, and a user object with a length":function(error, users){
+      assert.equal(error, null);
+      assert.notEqual(users.users.length, undefined);
+      users.should.be.a("object");
+    }
+  },
+  "when requesting a users topics":{
+    topic:function(){
+      klout.getTopics("kisshotch", this.callback);
+    },
+    "we should be able to get a user object, with no errors, and a user object with a length":function(error, users){
+      assert.equal(error, null);
+      assert.notEqual(users.users.length, undefined);
+      users.should.be.a("object");
+    }
+  },
+  // influence methods
+  "when requesting a users object with who they're influenced by":{
+    topic:function(){
+      klout.getInfluencedBy("kisshotch", this.callback);
+    },
+    "we should be able to get a user object, with no errors, and a user object with a length":function(error, users){
+      assert.equal(error, null);
+      assert.notEqual(users.users.length, undefined);
+      users.should.be.a("object");
+    }
+  },
+  "when requesting the users that influence users":{
+    topic:function(){
+      klout.getInfluencerOf("kisshotch", this.callback);
+    },
+    "we should be able to get a user object, with no errors, and a user object with a length":function(error, users){
+      assert.equal(error, null);
+      assert.notEqual(users.users.length, undefined);
+      users.should.be.a("object");
+    }
+  },
 }).export(module);
 
 /* EOF */
