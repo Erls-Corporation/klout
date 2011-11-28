@@ -6,7 +6,7 @@ var should = require("should");
 
 var klout = require("../lib/klout");
 
-klout.configure("YOUR_API_KEY", "json", "1");
+klout.configure("MY_API_KEY", "json", "1");
 
 vows.describe("general module tests").addBatch({
   "when requiring klout":{
