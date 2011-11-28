@@ -21,8 +21,19 @@ vows.describe("general module tests").addBatch({
     topic:function(){
       klout.getKlout("kisshotch", this.callback);
     },
-    "we should be able to get a klout score":function(error, users){
+    "we should be able to get a klout score, with no errors, and a user object with a length":function(error, users){
       assert.equal(error, null);
+      assert.notEqual(users.users.length, undefined);
+      users.should.be.a("object");
+    }
+  },
+  "when requesting multipel users klout scores":{
+    topic:function(){
+      klout.getKlout("kisshotch,hankejh,craigablerino", this.callback);
+    },
+    "we should be able to get a set of klout scores, with no errors, users as an object and users should have a length":function(error, users){
+      assert.equal(error, null);
+      assert.notEqual(users.users.length, undefined);
       users.should.be.a("object");
     }
   }
