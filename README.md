@@ -73,6 +73,8 @@ klout.getInfluencerOf("kisshotch", function(error, users) {
 /* EOF */
 ```
 
+***
+
 ### MIT Licnese
 
 Copyright (c) Copyright 2011, Edward Hotchkiss.
