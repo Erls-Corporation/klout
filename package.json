@@ -10,10 +10,10 @@
   "keywords":["klout", "twitter", "rank", "api", "influence"],
   "main":"./lib/klout",
   "engines":{
-    "node": ">=v0.4.11"
+    "node": ">=v0.6.5 < 0.7.0"
   },
   "dependencies":{
-    "request":"2.1.1"
+    "request":"2.2.9"
   },
   "devDependencies":{
     "vows":"0.5.13",
