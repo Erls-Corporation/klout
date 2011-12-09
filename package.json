@@ -2,7 +2,7 @@
   "author":"Edward Hotchkiss <e@ingk.com>",
   "name":"klout",
   "description":"NodeJS Klout API Wrapper",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/klout.git"
@@ -10,7 +10,7 @@
   "keywords":["klout", "twitter", "rank", "api", "influence"],
   "main":"./lib/klout",
   "engines":{
-    "node": ">=v0.6.5 < 0.7.0"
+    "node": ">=v0.6.5 < 0.8.0"
   },
   "dependencies":{
     "request":"2.2.9"
