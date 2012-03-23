@@ -13,7 +13,7 @@
     "node": ">=v0.6.11 < 0.8.0"
   },
   "dependencies":{
-    "request":"2.2.9"
+    "request":"2.9.153"
   },
   "devDependencies":{
     "vows":"0.6.2",
