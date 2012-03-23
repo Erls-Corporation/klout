@@ -1,5 +1,5 @@
 {
-  "author":"Edward Hotchkiss <e@ingk.com>",
+  "author":"Edward Hotchkiss <edwardhotchkiss@me.com>",
   "name":"klout",
   "description":"NodeJS Klout API Wrapper",
   "version": "0.2.3",
