@@ -22,7 +22,6 @@ klout.getKlout("kisshotch", function(error, users) {
   console.log(users);
 });
 
-/* EOF */
 ```
 
 ### Get a users Klout topics
@@ -34,7 +33,6 @@ klout.getTopics("kisshotch", function(error, users) {
   console.log(users);
 });
 
-/* EOF */
 ```
 
 ### Get a users User object
@@ -46,7 +44,6 @@ klout.getShow("kisshotch", function(error, users) {
   console.log(users);
 });
 
-/* EOF */
 ```
 
 ### Get a users influencers
@@ -58,7 +55,6 @@ klout.getInfluencers("kisshotch", function(error, users) {
   console.log(users);
 });
 
-/* EOF */
 ```
 
 ### Get a users influencees
@@ -70,7 +66,6 @@ klout.getInfluencerOf("kisshotch", function(error, users) {
   console.log(users);
 });
 
-/* EOF */
 ```
 
 ***
