@@ -3,6 +3,9 @@
   "name":"klout",
   "description":"NodeJS Klout API Wrapper",
   "version": "0.2.3",
+  "contributors":[
+    { "name": "Edward Hotchkiss", "github": "https://github.com/edwardhotchkiss" }
+  ],
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/klout.git"
