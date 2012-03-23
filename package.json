@@ -10,7 +10,7 @@
   "keywords":["klout", "twitter", "rank", "api", "influence"],
   "main":"./lib/klout",
   "engines":{
-    "node": ">=v0.6.5 < 0.8.0"
+    "node": ">=v0.6.11 < 0.8.0"
   },
   "dependencies":{
     "request":"2.2.9"
