@@ -16,7 +16,7 @@
     "request":"2.2.9"
   },
   "devDependencies":{
-    "vows":"0.5.13",
+    "vows":"0.6.2",
     "should":"0.3.2"
   },
   "scripts": {
