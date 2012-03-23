@@ -6,6 +6,7 @@
   "contributors":[
     { "name": "Edward Hotchkiss", "github": "https://github.com/edwardhotchkiss" }
   ],
+  "homepage": "http://github.com/edwardhotchkiss/klout",
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/klout.git"
