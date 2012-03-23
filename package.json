@@ -7,6 +7,9 @@
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/klout.git"
   },
+  "bugs": {
+    "url": "https://github.com/edwardhotchkiss/klout/issues"
+  },
   "keywords":["klout", "twitter", "rank", "api", "influence"],
   "main":"./lib/klout",
   "engines":{
